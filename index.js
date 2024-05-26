@@ -31,3 +31,5 @@ const renderUsers = users => {
 fetchUsers()
 	.then(users => renderUsers(users))
 	.catch(error => console.log(error))
+
+// "Григорій"
